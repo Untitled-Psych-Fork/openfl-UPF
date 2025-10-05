@@ -24,7 +24,7 @@ jobs:
           haxelib install hxcpp --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install utest --quiet
 
       - name: Fix haxelib repo
@@ -68,7 +68,7 @@ jobs:
           haxelib install hxcpp --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install utest --quiet
 
       - name: Fix haxelib repo
@@ -113,7 +113,7 @@ jobs:
           haxelib install hxcpp --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install utest --quiet
 
       - name: Fix haxelib repo
@@ -163,7 +163,7 @@ jobs:
           haxelib install hxcpp --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install utest --quiet
           haxelib run lime config AIR_SDK ${{ env.AIR_HOME }}
 
@@ -247,7 +247,7 @@ jobs:
           haxelib install hxcpp --quiet
           haxelib install format --quiet
           haxelib install hxp --quiet
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install dox --quiet
           haxelib dev openfl ${{ github.workspace }}
 
@@ -285,7 +285,7 @@ jobs:
       - name: Install Haxe dependencies
         run: |
           haxelib --global update haxelib
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UP --quiet
           haxelib install actuate --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
 
@@ -336,7 +336,7 @@ jobs:
       - name: Install Haxe dependencies
         run: |
           haxelib --global update haxelib
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install actuate --quiet
           haxelib install genes --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
@@ -396,7 +396,7 @@ jobs:
       - name: Install Haxe dependencies
         run: |
           haxelib --global update haxelib
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install actuate --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
 
@@ -447,7 +447,7 @@ jobs:
       - name: Install Haxe dependencies
         run: |
           haxelib --global update haxelib
-          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF.git --quiet
+          haxelib git https://github.com/Untitled-Psych-Fork/lime-UPF --quiet
           haxelib install actuate --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
 
